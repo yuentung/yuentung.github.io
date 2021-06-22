@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b53da26c.chunk.js",
+    "main.js.map": "/static/js/main.b53da26c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.23e4fb69.js",
+    "runtime-main.js.map": "/static/js/runtime-main.23e4fb69.js.map",
+    "static/js/2.7b1da2a4.chunk.js": "/static/js/2.7b1da2a4.chunk.js",
+    "static/js/2.7b1da2a4.chunk.js.map": "/static/js/2.7b1da2a4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.7b1da2a4.chunk.js.LICENSE.txt": "/static/js/2.7b1da2a4.chunk.js.LICENSE.txt",
+    "static/media/coding(dark).2fd882c4.png": "/static/media/coding(dark).2fd882c4.png",
+    "static/media/coding(light).de1764b7.png": "/static/media/coding(light).de1764b7.png",
+    "static/media/css.a68e3ec3.svg": "/static/media/css.a68e3ec3.svg",
+    "static/media/drama(dark).1e062e07.png": "/static/media/drama(dark).1e062e07.png",
+    "static/media/drama(light).a8750f8d.png": "/static/media/drama(light).a8750f8d.png",
+    "static/media/figma.b4fecfb3.svg": "/static/media/figma.b4fecfb3.svg",
+    "static/media/git.2098fe99.svg": "/static/media/git.2098fe99.svg",
+    "static/media/golf(dark).4ea3ee51.png": "/static/media/golf(dark).4ea3ee51.png",
+    "static/media/golf(light).51ecccd5.png": "/static/media/golf(light).51ecccd5.png",
+    "static/media/graduated(dark).8965f579.png": "/static/media/graduated(dark).8965f579.png",
+    "static/media/graduated(light).acb1e501.png": "/static/media/graduated(light).acb1e501.png",
+    "static/media/html.04d7149d.svg": "/static/media/html.04d7149d.svg",
+    "static/media/javascript.604732a8.svg": "/static/media/javascript.604732a8.svg",
+    "static/media/nccu.c17441d5.png": "/static/media/nccu.c17441d5.png",
+    "static/media/nightwatch.beee2475.svg": "/static/media/nightwatch.beee2475.svg",
+    "static/media/personalWeb(dark).f544a12d.png": "/static/media/personalWeb(dark).f544a12d.png",
+    "static/media/personalWeb(light).7b5bdbdf.png": "/static/media/personalWeb(light).7b5bdbdf.png",
+    "static/media/react.64e27935.svg": "/static/media/react.64e27935.svg",
+    "static/media/redux.b5e0ce1c.svg": "/static/media/redux.b5e0ce1c.svg",
+    "static/media/sass.fddb8bb2.svg": "/static/media/sass.fddb8bb2.svg",
+    "static/media/styled-components.f45e1faf.svg": "/static/media/styled-components.f45e1faf.svg",
+    "static/media/volleyball(dark).237d322f.png": "/static/media/volleyball(dark).237d322f.png",
+    "static/media/volleyball(light).38a8a888.png": "/static/media/volleyball(light).38a8a888.png",
+    "static/media/weather(dark).2c21aae5.png": "/static/media/weather(dark).2c21aae5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23e4fb69.js",
+    "static/js/2.7b1da2a4.chunk.js",
+    "static/js/main.b53da26c.chunk.js"
+  ]
+}
