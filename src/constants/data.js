@@ -237,8 +237,8 @@ const data = {
                     title: 'YUEN\'s Website',
                     subTitle: 'a website about me',
                     date: new Date(2021, 5),
-                    pageLink: 'https://yuentung.github.io/personal-website/',
-                    codeLink: 'https://github.com/yuentung/personal-website',
+                    pageLink: 'https://yuentung.github.io/',
+                    codeLink: 'https://github.com/yuentung/yuentung.github.io',
                 },
                 {
                     darkImage: WeatherInDark,

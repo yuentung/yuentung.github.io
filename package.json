@@ -19,7 +19,7 @@
     "web-vitals": "^1.1.1",
     "yarn": "^1.22.10"
   },
-  "homepage": "https://yuentung.github.io/personal-website",
+  "homepage": "https://yuentung.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
