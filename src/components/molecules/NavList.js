@@ -26,7 +26,9 @@ const NavList = ({ lang, sectionList, setIsOpen }) => {
 
     useEffect(() => {
         document.addEventListener('scroll', () => {
-            const currentSection = document.elementFromPoint(200, navbarHeight).id;
+            const elementList = document.elementsFromPoint(200, navbarHeight);
+            const sectionElement = elementList.find(element => element.tagName === 'SECTION');
+            const currentSection = sectionElement ? sectionElement.id : 'about';
             if (currentSection) {
                 setSelectedSection(currentSection);
             }

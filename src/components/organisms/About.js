@@ -11,7 +11,6 @@ const Wrapper = styled.section`
 `;
 
 const InnerWrapper = styled(Container)`
-    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +38,8 @@ const About = () => {
     const isSmallHeight = useMedia({ maxHeight: '414px' });
 
     return (
-        <Wrapper>
-            <InnerWrapper id="about" isSmallHeight={isSmallHeight}>
+        <Wrapper id="about">
+            <InnerWrapper isSmallHeight={isSmallHeight}>
                 {!isMobile && <Intro />}
                 {isMobile && <AvatarCardSwiper />}
             </InnerWrapper>
