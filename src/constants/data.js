@@ -24,6 +24,7 @@ import { ReactComponent as HTMLImage } from '../images/html.svg';
 import PersonalWebInDark from '../images/personalWeb(dark).png';
 import PersonalWebInLight from '../images/personalWeb(light).png';
 import WeatherInDark from '../images/weather(dark).png';
+import WeatherInLight from '../images/weather(light).png';
 
 const data = {
     en: {
@@ -242,7 +243,7 @@ const data = {
                 },
                 {
                     darkImage: WeatherInDark,
-                    lightImage: WeatherInDark,
+                    lightImage: WeatherInLight,
                     title: 'The Good Weather',
                     subTitle: 'a current weather widget',
                     date: new Date(2021, 4),
@@ -407,7 +408,7 @@ const data = {
                 },
                 {
                     darkImage: WeatherInDark,
-                    lightImage: WeatherInDark,
+                    lightImage: WeatherInLight,
                     title: '天氣好棒棒',
                     subTitle: '一個當前天氣的小工具',
                     date: new Date(2021, 4),
