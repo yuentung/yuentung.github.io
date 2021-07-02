@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Section, Title, SubSection, SubTitle } from '../templates';
 import Experience from '../molecules/Experience';
-import { pad, mobile } from '../../constants/media';
+import { pad, largeMobile } from '../../constants/media';
 import data from '../../constants/data';
 
 const Wrapper = styled(Section)`
@@ -15,7 +15,7 @@ const Wrapper = styled(Section)`
         padding-left: 12px;
     }
 
-    ${mobile} {
+    ${largeMobile} {
         padding-right: 0;
         padding-left: 0;
     }

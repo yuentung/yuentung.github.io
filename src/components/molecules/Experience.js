@@ -5,7 +5,7 @@ import useMedia from 'use-media';
 import TimeInText from '../atoms/TimeInText';
 import TimeInCalendar from '../atoms/TimeInCalendar';
 import Job from '../atoms/Job';
-import { pad, mobile } from '../../constants/media';
+import { pad, largeMobile } from '../../constants/media';
 import data from '../../constants/data';
 
 const Wrapper = styled.div`
@@ -39,7 +39,7 @@ const Wrapper = styled.div`
         }
     }
 
-    ${mobile} {
+    ${largeMobile} {
         padding: 16px;
         border-radius: 0;
         background-color: ${({ theme }) => theme.background.secondary};
@@ -58,7 +58,7 @@ const Wrapper = styled.div`
 const Header = styled.div`
     display: flex;
 
-    ${mobile} {
+    ${largeMobile} {
         flex-direction: row-reverse;
         justify-content: space-between;
     }
@@ -75,7 +75,7 @@ const Image = styled.img`
         margin-right: 20px;
     }
 
-    ${mobile} {
+    ${largeMobile} {
         width: 60px;
         height: 60px;
         margin-right: 0;
@@ -92,7 +92,7 @@ const TitleWrapper = styled.div`
         padding: 2px 0 1px;
     }
 
-    ${mobile} {
+    ${largeMobile} {
         padding: 0;
     }
 `;
@@ -106,7 +106,7 @@ const Title = styled.h5`
         font-size: 20px;
     }
 
-    ${mobile} {
+    ${largeMobile} {
         font-size: 18px;
     }
 `;
@@ -120,7 +120,7 @@ const SubTitle = styled.h6`
         font-size: 16px;
     }
 
-    ${mobile} {
+    ${largeMobile} {
         font-size: 14px;
     }
 `;
@@ -137,7 +137,7 @@ const Content = styled.div`
         padding-left: 74px;
     }
 
-    ${mobile} {
+    ${largeMobile} {
         padding-top: ${({ isOpen }) => isOpen ? '16px' : '0'};
         padding-left: 0;
     }
@@ -145,7 +145,7 @@ const Content = styled.div`
 
 const Experience = ({ lang, type, index }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const isMobile = useMedia({ maxWidth: '414px' });
+    const isLargeMobile = useMedia({ maxWidth: '700px' });
     const { image, title, subTitle, jobList, from, to } = data[lang].career[type].careerList[index];
 
     const handleButtonClick = useCallback(() => {
@@ -157,11 +157,11 @@ const Experience = ({ lang, type, index }) => {
             <Header>
                 <Image src={image} alt={subTitle} />
                 <TitleWrapper>
-                    {isMobile && <TimeInText from={from} to={to} />}
+                    {isLargeMobile && <TimeInText from={from} to={to} />}
                     <SubTitle>{subTitle}</SubTitle>
                     <Title>{title}</Title>
                 </TitleWrapper>
-                {!isMobile && <TimeInCalendar from={from} to={to} />}
+                {!isLargeMobile && <TimeInCalendar from={from} to={to} />}
             </Header>
             {jobList.length && <Content isOpen={isOpen}>{jobList.map(job => <Job key={job}>{job}</Job>)}</Content>}
         </Wrapper>
