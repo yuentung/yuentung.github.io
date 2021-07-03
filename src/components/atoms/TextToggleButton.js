@@ -34,6 +34,7 @@ const Text = styled.span`
         font-size: 18px;
 
         &:first-child:after {
+            left: 32px;
             height: 18px;
         }
     }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.p`
     font-size: 12px;
-    color: ${({ theme }) => theme.text.primary};
+    color: ${({ theme }) => theme.text.secondary};
 `;
 
 const TimeInText = ({ from, to }) => {

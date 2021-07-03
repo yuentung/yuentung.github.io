@@ -100,7 +100,8 @@ const TitleWrapper = styled.div`
 const Title = styled.h5`
     font-size: 24px;
     letter-spacing: 0.5px;
-    color: ${({ theme }) => theme.text.primary};
+    font-weight: 700;
+    color: ${({ theme }) => theme.text.secondary};
 
     ${pad} {
         font-size: 20px;
@@ -114,14 +115,14 @@ const Title = styled.h5`
 const SubTitle = styled.h6`
     font-size: 18px;
     letter-spacing: 0.5px;
-    color: ${({ theme }) => theme.text.primary};
+    color: ${({ theme }) => theme.text.secondary};
 
     ${pad} {
         font-size: 16px;
     }
 
     ${largeMobile} {
-        font-size: 14px;
+        font-size: 13px;
     }
 `;
 

@@ -10,7 +10,7 @@ const Button = styled.button`
     line-height: ${({ sideLength }) => sideLength};
     color: ${({ color }) => color};
     background-color: ${({ theme }) => theme.background.avatarCard};
-    box-shadow: ${({ theme }) => theme.boxShadow};
+    filter: drop-shadow(${({ theme }) => theme.boxShadow.avatarCard});
 `;
 
 const IconButton = ({ icon, sideLength, fontSize, color, handleButtonClick }) => {

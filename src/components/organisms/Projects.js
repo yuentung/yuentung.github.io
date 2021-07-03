@@ -3,12 +3,14 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Section, Title } from '../templates';
 import ProjectCard from '../molecules/ProjectCard';
-import { mobile } from '../../constants/media';
+import { largeMobile } from '../../constants/media';
 import data from '../../constants/data';
 
 const Wrapper = styled(Section)`
-    ${mobile} {
+    ${largeMobile} {
+        padding-right: 0;
         padding-bottom: 0;
+        padding-left: 0;
     }
 `;
 

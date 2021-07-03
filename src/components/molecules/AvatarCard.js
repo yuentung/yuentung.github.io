@@ -35,7 +35,7 @@ const Title = styled.h2`
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    color: ${({ theme }) => theme.text.primary};
+    color: ${({ theme }) => theme.text.secondary};
 `;
 
 const SubTitle = styled.p`
