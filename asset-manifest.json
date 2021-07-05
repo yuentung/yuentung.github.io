@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.118bf2f4.chunk.js",
-    "main.js.map": "/static/js/main.118bf2f4.chunk.js.map",
+    "main.js": "/static/js/main.bb6ad9e5.chunk.js",
+    "main.js.map": "/static/js/main.bb6ad9e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.23e4fb69.js",
     "runtime-main.js.map": "/static/js/runtime-main.23e4fb69.js.map",
     "static/js/2.fe3eb964.chunk.js": "/static/js/2.fe3eb964.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/drama(light).a8750f8d.png": "/static/media/drama(light).a8750f8d.png",
     "static/media/figma.b4fecfb3.svg": "/static/media/figma.b4fecfb3.svg",
     "static/media/git.2098fe99.svg": "/static/media/git.2098fe99.svg",
+    "static/media/github.382dfeaf.svg": "/static/media/github.382dfeaf.svg",
     "static/media/golf(dark).4ea3ee51.png": "/static/media/golf(dark).4ea3ee51.png",
     "static/media/golf(light).51ecccd5.png": "/static/media/golf(light).51ecccd5.png",
     "static/media/graduated(dark).8965f579.png": "/static/media/graduated(dark).8965f579.png",
@@ -37,6 +38,6 @@
   "entrypoints": [
     "static/js/runtime-main.23e4fb69.js",
     "static/js/2.fe3eb964.chunk.js",
-    "static/js/main.118bf2f4.chunk.js"
+    "static/js/main.bb6ad9e5.chunk.js"
   ]
 }
