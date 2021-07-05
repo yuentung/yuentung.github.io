@@ -202,7 +202,7 @@ const ProjectCard = ({ isDarkMode, lang, index }) => {
                     <Title>{title}</Title>
                     <SubTitle>{subTitle}</SubTitle>
                 </TitleWrapper>
-                {!isPad && <Calendar date={from} />}
+                {!isPad && <Calendar date={to} />}
                 {isPad && <LinkWrapper>
                     <Link href={codeLink} target="_blank">
                         <LinkIcon className="material-icons-round">code</LinkIcon>
