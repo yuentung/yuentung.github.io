@@ -68,6 +68,7 @@ const AvatarCardSwiper = () => {
             <ButtonWrapper>
                 <IconButton
                     icon="delete"
+                    shape="circle"
                     sideLength="48px"
                     fontSize="28px"
                     color="#757575"
@@ -75,6 +76,7 @@ const AvatarCardSwiper = () => {
                 />
                 <IconButton
                     icon="close"
+                    shape="circle"
                     sideLength="60px"
                     fontSize="36px"
                     color="#438EF2"
@@ -82,6 +84,7 @@ const AvatarCardSwiper = () => {
                 />
                 <IconButton
                     icon="favorite"
+                    shape="circle"
                     sideLength="60px"
                     fontSize="36px"
                     color="#ED5958"
@@ -89,6 +92,7 @@ const AvatarCardSwiper = () => {
                 />
                 <IconButton
                     icon="star"
+                    shape="circle"
                     sideLength="48px"
                     fontSize="28px"
                     color="#F8B917"

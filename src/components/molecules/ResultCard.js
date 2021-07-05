@@ -1,8 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import ResumeLink from '../atoms/ResumeLink';
+// import ResumeLink from '../atoms/ResumeLink';
+import IconButton from '../atoms/IconButton';
 import data from '../../constants/data';
+import { ReactComponent as GitHubIcon } from '../../images/github.svg';
 
 const ResultWrapper = styled.div`
     position: absolute;
@@ -35,6 +37,12 @@ const Description = styled.p`
     color: ${({ theme }) => theme.text.primary};
 `;
 
+const LinkWrapper = styled.div`
+    > a + a {
+        margin-left: 16px;
+    }
+`;
+
 const ResultCard = ({ lang, score }) => {
     const { result } = data[lang].about;
     let description;
@@ -47,7 +55,43 @@ const ResultCard = ({ lang, score }) => {
             <Title>{result.title}</Title>
             <Percentage>{description.icon} {score}%</Percentage>
             <Description>{description.text}</Description>
-            <ResumeLink />
+            {/* <ResumeLink /> */}
+            <LinkWrapper>
+                <IconButton
+                    tag="a"
+                    shape="square"
+                    sideLength="44px"
+                    fontSize="30px"
+                    color="#212121"
+                    backgroundColor="#E5E5E5"
+                    href={data.en.about.link.github}
+                    target="_blank"
+                >
+                    <GitHubIcon />
+                </IconButton>
+                <IconButton
+                    tag="a"
+                    icon="email"
+                    shape="square"
+                    sideLength="44px"
+                    fontSize="30px"
+                    color="#45A4F5"
+                    backgroundColor="#CCE7FF"
+                    href={data.en.about.link.email}
+                    target="_blank"
+                />
+                <IconButton
+                    tag="a"
+                    icon="picture_as_pdf"
+                    shape="square"
+                    sideLength="44px"
+                    fontSize="30px"
+                    color="#E53F33"
+                    backgroundColor="#F5C2BC"
+                    href={data.en.about.link.cv}
+                    target="_blank"
+                />
+            </LinkWrapper>
         </ResultWrapper>
     );
 };

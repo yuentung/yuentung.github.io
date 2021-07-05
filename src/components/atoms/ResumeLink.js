@@ -58,7 +58,7 @@ const Wrapper = styled.a`
 const ResumeLink = ({ isDarkMode, lang }) => {
     return (
         <Wrapper
-            href={data.en.about.resumeLink}
+            href={data.en.about.link.cv}
             target="_blank"
             isDarkMode={isDarkMode}
         >

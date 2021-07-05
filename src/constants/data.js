@@ -35,6 +35,11 @@ const data = {
             projects: 'PROJECTs',
         },
         about: {
+            link: {
+                github: 'https://github.com/yuentung',
+                email: 'mailto:jerryio1986@gmail.com',
+                cv: 'https://drive.google.com/file/d/1qyuK08kemp2r4s1xG_Uzao4oA3qYpY6d/view?usp=sharing',
+            },
             resumeLink: 'https://drive.google.com/file/d/1qyuK08kemp2r4s1xG_Uzao4oA3qYpY6d/view?usp=sharing',
             intro: ['Hello,', 'I am', 'YU-EN.'],
             cardList: [
